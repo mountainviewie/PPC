@@ -70,15 +70,33 @@ ul a {
 
 /*  Middle  */
 
+#main {
+	background:linear-gradient(to right, black,#474747,black);
+	width:970px;
+}
+
+#main div {	
+	margin-left:10px;
+
+
+}
+
 #aboutmeta img {
-	border:solid white 3px;
+	border:solid white 5px;
+}
+
+#aboutmeta img, #about {
+	margin-top:20px;
+	/*margin-left:20px;*/
+	margin-bottom:5px;
 }
 
 #about {
-	background:linear-gradient(to right, grey, dimgrey);
+	background:linear-gradient(to right, dimgrey, #474747);
 	width:500px;
-	height:261px;
+	height:265px;
 	color:white;
+	margin-left:15px;
 }
 
 #about p {
@@ -88,8 +106,8 @@ ul a {
 }
 
 #about h4 {
-	margin-left:10px;
-	margin-top:8px;
+	margin-left:11px;
+	margin-top:11px;
 	margin-bottom:4px;
 }
 
@@ -117,7 +135,7 @@ ul a {
 }
 
 .yellow {
-	background-color:yellow;
+	background:linear-gradient(#FFDF00,gold);
 	vertical-align: top;
 	color:black;
 	margin:0px;
@@ -133,6 +151,7 @@ ul a {
 	border:solid black 1px;
 	vertical-align: top;
 	margin:5px;
+	background:linear-gradient(white,lightyellow);
 }
 
 .readmore * {
