@@ -1,23 +1,43 @@
+* {
+	font-family:sans-serif;
+}
+
 #header {
 	display:inline-block;
+	height:68px;
+	width:960px;
+	background: linear-gradient(lightgrey,white);
+}
+
+#header img {
+	margin-right:315px;
 }
 
 #header p {
-	margin:0px;
+	padding
+	margin-bottom:0px;
+	font-weight:bold;
 }
 
 #header img, p {
 	display:inline-block;
-	vertical-align: top;
+	vertical-align: bottom;
 }
 
 li {
 	display:inline-block;
-	font-size: 12px;
 }
 
 input {
-	border:solid 1px;
+	width:125px;
+	padding-top:5px;
+	margin-bottom:20px;
+	font-size: 9px;
+	font-weight:bold;
+	color:dimgray;
+	border:solid lightgrey 1px;
+	border-bottom:0px;
+	background: linear-gradient(white,lightgrey);
 }
 
 ul {
