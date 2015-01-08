@@ -40,13 +40,14 @@
 ul {
 	list-style-type: none;
 	margin:0px;
+	margin-left:30px;
 	padding:0px;
 }
 
 li{
 	font-size:9px;
 	font-weight:bold;
-	padding:6px 20px 6px 20px;
+	padding:6px 25px 6px 25px;
 	margin-left:-5px;
 	border:solid lightgrey 1px;
 	border-bottom:0px;
@@ -54,16 +55,10 @@ li{
 	display:inline-block;
 }
 
-ul {
-	margin-left:5px;
-}
-
 ul a {
 	color:dimgray;
 	text-decoration: none;
 }
-
-/*edit*/
 
 /*a {
 
@@ -77,14 +72,9 @@ ul a {
 	width:970px;
 }
 
-#main div {	
-	margin-left:10px;
-
-
-}
-
 #aboutmeta img {
 	border:solid white 5px;
+	margin-left:25px;
 }
 
 #aboutmeta img, #about {
@@ -104,12 +94,12 @@ ul a {
 #about p {
 	font-size:12px;
 	margin-top:5px;
-	margin-left:10px;
+	margin-left:15px;
 }
 
 #about h4 {
-	margin-left:11px;
-	margin-top:11px;
+	margin-left:15px;
+	margin-top:15px;
 	margin-bottom:4px;
 }
 
@@ -119,9 +109,10 @@ ul a {
 }
 
 #smallerlogo {
-	height:9px;
+	height:12px;
 	width:47px;
-	margin-left:15px;
+	margin-left:40px;
+	border-radius: 3px;
 }
 
 #smallerlogo, #smallbar p {
@@ -134,6 +125,11 @@ ul a {
 #smallbar p{
 	margin-left:20px;
 	font-size:11px;
+	color:#D2B48C;
+}
+
+#automotive {
+	margin-left:25px;
 }
 
 .yellow {
