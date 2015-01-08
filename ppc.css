@@ -5,7 +5,11 @@
 #header {
 	display:inline-block;
 	height:68px;
+<<<<<<< HEAD
 	width:960px;
+=======
+	width:970px;
+>>>>>>> bottom
 	background: linear-gradient(lightgrey,white);
 }
 
@@ -24,12 +28,18 @@
 	vertical-align: bottom;
 }
 
+<<<<<<< HEAD
 li {
 	display:inline-block;
 }
 
 input {
 	width:125px;
+=======
+
+/*input {
+
+>>>>>>> bottom
 	padding-top:5px;
 	margin-bottom:20px;
 	font-size: 9px;
@@ -38,11 +48,16 @@ input {
 	border:solid lightgrey 1px;
 	border-bottom:0px;
 	background: linear-gradient(white,lightgrey);
+<<<<<<< HEAD
 }
+=======
+}*/
+>>>>>>> bottom
 
 ul {
 	list-style-type: none;
 	margin:0px;
+<<<<<<< HEAD
 	padding:0px;
 }
 
@@ -50,3 +65,169 @@ ul {
 
 	border:solid 1px;
 }*/
+=======
+	margin-left:30px;
+	padding:0px;
+}
+
+li{
+	font-size:9px;
+	font-weight:bold;
+	padding:6px 25px 6px 25px;
+	margin-left:-5px;
+	border:solid lightgrey 1px;
+	border-bottom:0px;
+	background: linear-gradient(white,lightgrey);
+	display:inline-block;
+}
+
+ul a {
+	color:dimgray;
+	text-decoration: none;
+}
+
+/*a {
+
+	border:solid 1px;
+}*/
+
+/*  Middle  */
+
+#main {
+	background:linear-gradient(to right, black,#474747,black);
+	width:970px;
+}
+
+#aboutmeta img {
+	border:solid white 5px;
+	margin-left:25px;
+}
+
+#aboutmeta img, #about {
+	margin-top:20px;
+	/*margin-left:20px;*/
+	margin-bottom:5px;
+}
+
+#about {
+	background:linear-gradient(to right, dimgrey, #474747);
+	width:500px;
+	height:265px;
+	color:white;
+	margin-left:15px;
+}
+
+#about p {
+	font-size:12px;
+	margin-top:5px;
+	margin-left:15px;
+}
+
+#about h4 {
+	margin-left:15px;
+	margin-top:15px;
+	margin-bottom:4px;
+}
+
+#about, #main img {
+	vertical-align:top;
+	display:inline-block;
+}
+
+#smallerlogo {
+	height:12px;
+	width:47px;
+	margin-left:40px;
+	border-radius: 3px;
+}
+
+#smallerlogo, #smallbar p {
+	display:inline-block;
+	vertical-align:top;
+	margin-bottom:4px;
+	margin-top:4px;
+}
+
+#smallbar p{
+	margin-left:20px;
+	font-size:11px;
+	color:#D2B48C;
+}
+
+#automotive {
+	margin-left:25px;
+}
+
+.yellow {
+	background:linear-gradient(#FFDF00,gold);
+	vertical-align: top;
+	color:black;
+	margin:0px;
+	padding-left:10px;
+	padding-top:6px;
+	padding-bottom:6px;
+}
+
+.readmore {
+	display:inline-block;
+	width:217px;
+	height:280px;
+	border:solid black 1px;
+	vertical-align: top;
+	margin:5px;
+	background:linear-gradient(white,lightyellow);
+}
+
+.readmore * {
+	margin:0px;
+}
+
+.readmore p {
+	font-size: 13px;
+	padding: 13px 0 22px 13px;
+	margin-left: 10px;
+	margin-right: 10px;
+	}
+
+.readmore img {
+	width:217px;
+}
+
+ .button {
+ 	border:solid black 2px;
+ 	border-top-left-radius: 4px;
+ 	border-bottom-left-radius:4px;
+ 	margin-left:115px;
+ 	margin-bottom:15px;
+ 	vertical-align:bottom;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> bottom
