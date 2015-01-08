@@ -1,0 +1,32 @@
+#header {
+	display:inline-block;
+}
+
+#header p {
+	margin:0px;
+}
+
+#header img, p {
+	display:inline-block;
+	vertical-align: top;
+}
+
+li {
+	display:inline-block;
+	font-size: 12px;
+}
+
+input {
+	border:solid 1px;
+}
+
+ul {
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+}
+
+/*a {
+
+	border:solid 1px;
+}*/
